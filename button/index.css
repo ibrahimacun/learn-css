@@ -1,0 +1,162 @@
+button {
+  background-color: yellow;
+  font-size:  50px;;
+}
+button {
+  font-size: 50px;
+}
+.font {
+  background-color: aquamarine;
+  font-size: 50px;
+  border: 5px solid blue;
+}
+.font:hover {
+  background-color: blue;
+  border: yellow 5px solid;
+  transition-duration: 0.2s;
+}
+.font-2 {
+  font-size: 100px;
+  border: green 5px solid;
+  color: blue;
+  width: 1000px;
+  transition: all 3s ease-in 2s;
+}
+.font-2:hover {
+  background-color: red;
+  border: blue 5px solid;
+  color: black;
+  width: 1500px;
+  border-radius: 50%;
+}
+.font-3 {
+  border: black 5px solid;
+  transition: transform 2s;
+}
+
+.font-3:hover {
+  transform: scaleX(2);
+}
+.font-4 {
+  border: blueviolet 5px solid;
+  transition: transform 2s;
+}
+.font-4:hover {
+  transform: scaleY(2);
+}
+
+.font-5 {
+    border:springgreen 5px solid ;
+    transition: transform 2s;
+}
+
+.font-5:hover {
+    transform:scale(2,  2)
+}
+
+.font-6 {
+    border:turquoise 5px solid;
+    transition: transform 2s ;
+}
+.font-6:hover {
+    transform: scale(.25);
+}
+.font-7 {
+     transition: transform 2s;
+     border: darkcyan 5px solid;
+}
+.font-7:hover {
+    transform:rotate(180deg)
+}
+.font-8 {
+    transition: transform 2s;
+    border: slateblue 5px solid;
+}
+.font-8:hover {
+    transform:skewX(30deg)
+}
+.font-9 {
+    transition: transform 2s;
+    border:firebrick 5px solid;
+}
+.font-9:hover {
+    transform:skew(20deg, 40deg)
+}
+.font-10 {
+    transition: transform 2s;
+    border: hotpink 5px solid;
+    transform-origin: bottom;
+}
+.font-10:hover {
+    transform:rotate(45deg)
+}
+.font-ödev {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    border:transparent 5px ;
+    transition-duration: 0.2s;
+    width: 150px;
+    height: 80px;
+}
+.font-ödev:hover {
+    background-color: white;
+    color: rgb(134, 14, 14);
+    border: black 5px dotted;
+    transition-duration: 0.2s;
+    font-size: 30px;
+}
+.font-11 {
+  border:teal 5px solid;
+  transform-origin: 30% 60%;
+  transition-duration: 0.2s;
+}
+.font-11:hover {
+  transform:rotate(30deg)
+}
+.font-12 {
+  border:lightseagreen 5px solid;
+  transition-duration: 0.2s;
+  transform-origin: top;
+}
+.font-12:hover {
+  transform: rotate(-30deg);
+}
+.font-13 {
+  border:teal 5px solid;
+  transition-duration: 0.2s;
+  font-size: 50px ;
+
+}
+.font-13:hover {
+  border:yellow 5px solid ;
+  transform: translateY(300px);
+  perspective: 500px;
+}
+body {
+  perspective: 1000px;
+}
+.font-14 {
+  border: blue 5px solid;
+  transition-duration: 0.2s;
+  font-size: 150px;
+  }
+.font-14:hover {
+  transform: translateZ(300px);
+}
+body {
+  perspective: 500px;
+}
+
+.font-15 {
+  transition-duration: 0.2s;
+  font-size: 50px;
+  margin-top: 200px;
+  width: 1000px;
+  margin: auto;
+}
+.font-15:hover {
+  transform: rotateY(180deg);
+}
+
+
